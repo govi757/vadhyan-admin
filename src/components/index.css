@@ -1,0 +1,90 @@
+.videoThumbnail {
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.videoThumbnailCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bookCoverCont {
+    
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #c8c8c8;
+    margin: 10px;
+}
+
+.bookTitleImg {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bookDescription {
+    margin: 10px 10px;
+}
+.s-header {
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    width: 100%;
+}
+
+
+.s-header {
+    margin: 0px 100px;
+  }
+
+  .transparentHeader {
+    background: transparent;
+    color: #fff !important;
+  }
+
+  .activeHeader {
+    background: rgb(143,118,46);
+background: linear-gradient(90deg,  rgba(207,173,97,1) 4%, rgba(229,180,99,1) 35%, rgba(240,219,174,1) 100%);
+    color: #fff !important;
+  }
+
+  .header  {
+    
+    transition: background-color 0.7s linear;
+
+  }
+
+  nav .navbar-collapse {
+    
+    /* background: #343a40; */
+    
+  }
+  
+  nav .navbar-collapse.show {
+    right: 0; /* push the menu back to viewport */
+  }
+
+  .pending {
+    color: #f8f8f8 !important;
+  }
+
+  .active {
+    color: #fff !important;
+  }
+
+  @media only screen and (max-width: 600px) { 
+    .s-header {
+      margin: 0px 20px;
+    }
+  }

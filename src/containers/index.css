@@ -1,0 +1,11 @@
+.contactUs {
+    height: 300px;
+    width: 100%;
+    background: rgb(143,118,46);
+    background: linear-gradient(90deg,  rgba(207,173,97,1) 4%, rgba(229,180,99,1) 35%, rgba(240,219,174,1) 100%);
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

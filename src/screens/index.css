@@ -1,0 +1,26 @@
+
+.homeTitleSec {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top:calc((90vh/3));
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+  
+  }
+
+  .homeCarousel img{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.8;
+    filter: brightness(30%);
+    background-color: #000;
+  }
+
+  .offerings-container {
+    padding-top: 120px;
+    width: 100%;
+  }
